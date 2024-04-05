@@ -1,19 +1,21 @@
 {
-    "name": "YouTube-Downloader",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-		"start": "electron ."
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "eslint": "^8.57.0"
-    },
-    "dependencies": {
-        "electron": "^29.2.0"
-    }
+  "name": "YouTube-Downloader",
+  "version": "1.0.0",
+  "description": "This is an Electron based app that can download YouTube videos with ease.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.1",
+    "electron": "^29.2.0",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {}
 }
